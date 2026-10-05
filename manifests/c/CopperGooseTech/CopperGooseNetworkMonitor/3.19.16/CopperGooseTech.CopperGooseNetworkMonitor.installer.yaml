@@ -1,0 +1,29 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: CopperGooseTech.CopperGooseNetworkMonitor
+PackageVersion: 3.19.16
+InstallerLocale: en-US
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: '{F2F1A9D1-2E71-4C39-8E8C-4C5D3D9D0E21}}_is1'
+AppsAndFeaturesEntries:
+- DisplayName: CopperGoose 3.19.16
+  Publisher: CopperGooseTech
+  DisplayVersion: 3.19.16
+  ProductCode: '{F2F1A9D1-2E71-4C39-8E8C-4C5D3D9D0E21}}_is1'
+  InstallerType: inno
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.coppergoosetech.com/downloads/CopperGooseSetup-3.19.16.exe
+  InstallerSha256: 5CFE73C794F16604077ED71C053BC645BBE06D4D0EBD0C3F5D1D76207143BCB7
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-10-05
